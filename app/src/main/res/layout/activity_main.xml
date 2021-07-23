@@ -4,6 +4,103 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+      <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/amazonlogo2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myborder"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign-In"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Email (phone for mobile accounts)"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/myborder"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Password"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Forgot your password?"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#0000FF"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:inputType="textPassword"
+            android:background="@drawable/myborder" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background=""
+            android:text="Sign-In"
+            android:textColor="#000000"/>
+
+
+    </LinearLayout>
+
 
 </LinearLayout>
