@@ -83,7 +83,6 @@
                     android:textSize="15sp"
                     android:textColor="#0000FF"/>
 
-
             </LinearLayout>
 
         </LinearLayout>
@@ -203,6 +202,5 @@
             android:textColor="#000000"/>
 
     </LinearLayout>
-
 
 </LinearLayout>
