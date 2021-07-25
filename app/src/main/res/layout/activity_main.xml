@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Email"
+            android:text="Email (phone for mobile accounts)"
             android:textStyle="bold"
             android:textSize="15sp"
             android:textColor="#000000"/>
