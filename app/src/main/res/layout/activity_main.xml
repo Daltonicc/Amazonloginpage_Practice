@@ -47,6 +47,7 @@
             android:textColor="#000000"/>
 
         <EditText
+            android:id="@+id/emailEdt"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="5dp"
@@ -87,6 +88,7 @@
         </LinearLayout>
 
         <EditText
+            android:id="@+id/passwordEdt"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="5dp"
@@ -95,6 +97,7 @@
             android:background="@drawable/myborder" />
 
         <Button
+            android:id="@+id/signinBtn"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="20dp"
