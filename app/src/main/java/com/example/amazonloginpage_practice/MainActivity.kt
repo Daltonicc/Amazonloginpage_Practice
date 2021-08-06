@@ -14,13 +14,15 @@ class MainActivity : AppCompatActivity() {
 
         val username = "ethanpark604@gmail.com"
         val password = "12346567890"
+        val name = "Ethan"
 
         signinBtn.setOnClickListener {
             val inputcontent = emailEdt.text.toString()
             val inputcontent2 = passwordEdt.text.toString()
 
+
             if (inputcontent == username && inputcontent2 == password ) {
-                Toast.makeText(this, "관리자입니다", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "${name} 관리자입니다", Toast.LENGTH_SHORT).show()
             }
             else {
                 Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
