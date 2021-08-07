@@ -1,6 +1,7 @@
 package com.example.amazonloginpage_practice
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_create_account.*
@@ -30,6 +31,17 @@ class CreateAccountActivity : AppCompatActivity() {
             intentContact.putExtra("originalContact", originalContact)
 
             startActivityForResult(intentContact, REQUEST_FOR_CONTACT)
+
+        }
+
+        dialBtn.setOnClickListener {
+            val inputPhoneNumber = contactTxt.text.toString()
+
+            val dialUri = Uri.parse("tel:${inputPhoneNumber}")
+
+            val dialIntent = Intent(Intent.ACTION_DIAL, dialUri)
+
+            startActivity(dialIntent)
 
         }
     }
