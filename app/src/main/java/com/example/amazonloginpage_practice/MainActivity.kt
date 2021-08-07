@@ -15,11 +15,11 @@ class MainActivity : AppCompatActivity() {
         val adminUser = "Ethan"
 
         signinBtn.setOnClickListener {
-            val inputcontent = emailEdt.text.toString()
-            val inputcontent2 = passwordEdt.text.toString()
+            val inputContent = emailEdt.text.toString()
+            val inputContent2 = passwordEdt.text.toString()
 
 
-            if (inputcontent == userName && inputcontent2 == userPassword ) {
+            if (inputContent == userName && inputContent2 == userPassword ) {
                 Toast.makeText(this, "${adminUser} 관리자입니다", Toast.LENGTH_SHORT).show()
             }
             else {
