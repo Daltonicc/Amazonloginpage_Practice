@@ -1,5 +1,6 @@
 package com.example.amazonloginpage_practice
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -18,7 +19,6 @@ class MainActivity : AppCompatActivity() {
             val inputContent = emailEdt.text.toString()
             val inputContent2 = passwordEdt.text.toString()
 
-
             if (inputContent == userName && inputContent2 == userPassword ) {
                 Toast.makeText(this, "${adminUser} 관리자입니다", Toast.LENGTH_SHORT).show()
             }
@@ -27,5 +27,12 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+
+        createIdBtn.setOnClickListener {
+            val createIdIntent = Intent(this, CreateAccountActivity::class.java)
+            startActivity(createIdIntent)
+        }
+
     }
+
 }
