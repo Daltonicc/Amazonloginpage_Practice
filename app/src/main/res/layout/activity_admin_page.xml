@@ -59,7 +59,7 @@
                 android:id="@+id/memberCheckBtn"
                 android:layout_width="125dp"
                 android:layout_height="30dp"
-                android:background="@drawable/gradinet2"
+                android:background="@drawable/selector_view"
                 android:text="Member"
                 android:textAllCaps="false"/>
 
@@ -88,8 +88,7 @@
                 android:id="@+id/memberCheck2Btn"
                 android:layout_width="125dp"
                 android:layout_height="30dp"
-                android:background="@drawable/gradinet2"
-                android:text="Member"
+                android:background="@drawable/selector_view"                android:text="Member"
                 android:textAllCaps="false"/>
 
         </LinearLayout>
@@ -117,8 +116,7 @@
                 android:id="@+id/memberCheck3Btn"
                 android:layout_width="125dp"
                 android:layout_height="30dp"
-                android:background="@drawable/gradinet2"
-                android:text="Member"
+                android:background="@drawable/selector_view"                android:text="Member"
                 android:textAllCaps="false"/>
 
         </LinearLayout>
@@ -146,8 +144,7 @@
                 android:id="@+id/memberCheck4Btn"
                 android:layout_width="125dp"
                 android:layout_height="30dp"
-                android:background="@drawable/gradinet2"
-                android:text="Member"
+                android:background="@drawable/selector_view"                android:text="Member"
                 android:textAllCaps="false"/>
 
         </LinearLayout>
@@ -171,7 +168,7 @@
             android:id="@+id/teamDoneBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/gradinet2"
+            android:background="@drawable/selector_view"
             android:text="DONE"/>
 
     </LinearLayout>

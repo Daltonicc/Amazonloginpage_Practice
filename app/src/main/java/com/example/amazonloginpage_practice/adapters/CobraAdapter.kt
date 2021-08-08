@@ -31,14 +31,13 @@ class CobraAdapter(
         val ageTxt = row.findViewById<TextView>(R.id.ageTxt)
         val rankTxt = row.findViewById<TextView>(R.id.rankTxt)
         val positionTxt = row.findViewById<TextView>(R.id.positionTxt)
-        val contactTxt = row.findViewById<TextView>(R.id.contactTxt)
+        val contactTxt = row.findViewById<TextView>(R.id.cobraContactTxt)
 
         nameTxt.text = cobraMemberData.name
-        ageTxt.text = cobraMemberData.name
-        rankTxt.text = cobraMemberData.name
-        positionTxt.text = cobraMemberData.name
-        contactTxt.text = cobraMemberData.name
-
+        ageTxt.text = "${cobraMemberData.age}세"
+        rankTxt.text = cobraMemberData.rank
+        positionTxt.text = cobraMemberData.position
+        contactTxt.text = cobraMemberData.contact
 
         return row
 

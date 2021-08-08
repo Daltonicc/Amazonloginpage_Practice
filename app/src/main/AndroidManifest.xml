@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Amazonloginpage_Practice">
-        <activity android:name=".CobraMemberActivity"></activity>
+        <activity android:name=".CobraMemberActivity"/>
         <activity android:name=".AdminPageActivity" />
         <activity android:name=".ContactChangeActivity" />
         <activity android:name=".NicknameChangeActivity" />

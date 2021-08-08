@@ -198,7 +198,7 @@
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/gradinet2"
+            android:background="@drawable/selector_view"
             android:text="Create your Amazon account"
             android:textAllCaps="false"
             android:textSize="14sp"

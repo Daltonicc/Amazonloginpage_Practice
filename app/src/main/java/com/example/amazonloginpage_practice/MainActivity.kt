@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val userName = "ethanpark604@gmail.com"
-        val userPassword = "1234567890"
+        val userName = "ethan"
+        val userPassword = "1234"
         val adminUser = "Ethan"
 
         signinBtn.setOnClickListener {

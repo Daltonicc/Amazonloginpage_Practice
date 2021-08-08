@@ -57,7 +57,7 @@
                 android:id="@+id/nicknameChangeBtn"
                 android:layout_width="125dp"
                 android:layout_height="30dp"
-                android:background="@drawable/gradinet2"
+                android:background="@drawable/selector_view"
                 android:text="Change"
                 android:textAllCaps="false"/>
 
@@ -95,7 +95,7 @@
                 android:layout_width="125dp"
                 android:layout_height="30dp"
                 android:text="Change"
-                android:background="@drawable/gradinet2"
+                android:background="@drawable/selector_view"
                 android:textAllCaps="false" />
 
         </LinearLayout>
@@ -118,7 +118,7 @@
             android:id="@+id/createDoneBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/gradinet2"
+            android:background="@drawable/selector_view"
             android:text="DONE"/>
 
     </LinearLayout>

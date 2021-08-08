@@ -11,7 +11,7 @@ class AdminPageActivity : AppCompatActivity() {
         setContentView(R.layout.activity_admin_page)
 
         memberCheckBtn.setOnClickListener {
-            val cobraMemberIntent = Intent(this, KobraMemberActivity::class.java)
+            val cobraMemberIntent = Intent(this, CobraMemberActivity::class.java)
             startActivity(cobraMemberIntent)
         }
 
