@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".CreateAccountActivity">
+    tools:context=".AdminPageActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +30,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nickname"
+            android:layout_marginBottom="10dp"
+            android:text="Team List"
             android:textColor="#000000"
             android:textStyle="bold"
             android:textSize="19sp"/>
@@ -38,15 +39,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/nicknameTxt"
+                android:id="@+id/cobraTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
                 android:textSize="17sp"
-                android:text="Ethan"/>
+                android:text="COBRA"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -54,36 +56,28 @@
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/nicknameChangeBtn"
+                android:id="@+id/memberCheckBtn"
                 android:layout_width="125dp"
                 android:layout_height="30dp"
                 android:background="@drawable/gradinet2"
-                android:text="Change"
+                android:text="Member"
                 android:textAllCaps="false"/>
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Contact"
-            android:textColor="#000000"
-            android:textStyle="bold"
-            android:textSize="19sp"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/contactTxt"
+                android:id="@+id/blackBearTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
                 android:textSize="17sp"
-                android:text="01012345678"/>
+                android:text="BLACK BEAR"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -91,14 +85,73 @@
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/changeContactBtn"
+                android:id="@+id/memberCheck2Btn"
                 android:layout_width="125dp"
                 android:layout_height="30dp"
-                android:text="Change"
                 android:background="@drawable/gradinet2"
-                android:textAllCaps="false" />
+                android:text="Member"
+                android:textAllCaps="false"/>
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/scorpionTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:text="SCORPION"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/memberCheck3Btn"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:background="@drawable/gradinet2"
+                android:text="Member"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/whiteTigerTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:text="WHITE TIGER"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/memberCheck4Btn"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:background="@drawable/gradinet2"
+                android:text="Member"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
 
         <TextView
             android:layout_width="match_parent"
@@ -106,21 +159,22 @@
             android:layout_weight="1"/>
 
         <Button
-            android:id="@+id/dialBtn"
+            android:id="@+id/teamRegisterBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:background="@drawable/gradient"
             android:textAllCaps="false"
-            android:text="Register Your Contacts"/>
+            android:text="Register New Team"/>
 
         <Button
-            android:id="@+id/createDoneBtn"
+            android:id="@+id/teamDoneBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/gradinet2"
             android:text="DONE"/>
 
     </LinearLayout>
+
 
 </LinearLayout>

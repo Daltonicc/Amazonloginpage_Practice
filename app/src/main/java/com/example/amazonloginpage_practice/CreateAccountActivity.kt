@@ -44,6 +44,10 @@ class CreateAccountActivity : AppCompatActivity() {
             startActivity(dialIntent)
 
         }
+
+        createDoneBtn.setOnClickListener {
+            finish()
+        }
     }
 
 //    onActivityResult는 2개 이상 못쓰는가?

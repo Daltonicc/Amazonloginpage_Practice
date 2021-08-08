@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val userName = "ethanpark604@gmail.com"
-        val userPassword = "12346567890"
+        val userPassword = "1234567890"
         val adminUser = "Ethan"
 
         signinBtn.setOnClickListener {
@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
 
             if (inputContent == userName && inputContent2 == userPassword ) {
                 Toast.makeText(this, "${adminUser} 관리자입니다", Toast.LENGTH_SHORT).show()
+                val signInIdIntent = Intent(this, AdminPageActivity::class.java)
+                startActivity(signInIdIntent)
             }
             else {
                 Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
