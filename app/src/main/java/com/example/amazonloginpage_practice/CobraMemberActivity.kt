@@ -1,10 +1,13 @@
 package com.example.amazonloginpage_practice
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.amazonloginpage_practice.adapters.CobraAdapter
 import com.example.amazonloginpage_practice.datas.CobraMember
 import kotlinx.android.synthetic.main.activity_cobra_member.*
+import kotlinx.android.synthetic.main.member_list_item.*
 
 class CobraMemberActivity : AppCompatActivity() {
 
@@ -34,6 +37,16 @@ class CobraMemberActivity : AppCompatActivity() {
         cobraMemberDoneBtn.setOnClickListener {
             finish()
         }
+//         텍스트에는 setonclickListener 기능 불가능?
+//        cobraContactTxt.setOnClickListener {
+//            val inputCobraMemberNumber = cobraContactTxt.text.toString()
+//
+//            val dialUriCobra = Uri.parse("tel:${inputCobraMemberNumber}")
+//
+//            val dialIntent = Intent(Intent.ACTION_DIAL, dialUriCobra)
+//
+//            startActivity(dialIntent)
+//        }
 
     }
 

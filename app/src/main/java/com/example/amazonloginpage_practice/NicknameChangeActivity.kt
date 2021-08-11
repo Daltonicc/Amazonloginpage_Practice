@@ -11,7 +11,12 @@ class NicknameChangeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_nickname_change)
 
+//  ??  intent와 Intent의 차이는 뭘까.
+//      put한 값인 originalName을 get해서 변수 originalNicknameIntent에 저장한다.
+
         val originalNicknameIntent = intent.getStringExtra("originalName")
+//
+//      newNicknameEdt에 미리 변수 originalNicknameIntent를 setText해둔다.
         newNicknameEdt.setText(originalNicknameIntent)
 
 
