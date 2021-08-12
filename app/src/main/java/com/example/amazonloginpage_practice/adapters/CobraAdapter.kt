@@ -10,10 +10,12 @@ import com.example.amazonloginpage_practice.R
 import com.example.amazonloginpage_practice.datas.CobraMember
 
 class CobraAdapter(
+//    변수 mContext는 Context유형으로 저장, resId는 Int로 저장, mList는 ArrayList로 저장하는데 CobraMember를 참조한다.
     val mContext : Context,
     val resId : Int,
     val mList : ArrayList<CobraMember>) : ArrayAdapter<CobraMember>(mContext, resId, mList) {
 
+//      모르겠다 진심,, 뭔소리야 이게..
         val inf = LayoutInflater.from(mContext)
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
