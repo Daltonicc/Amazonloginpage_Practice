@@ -24,7 +24,7 @@ class CobraAdapter(
         if (tempRow == null) {
             tempRow = inf.inflate(R.layout.member_list_item, null)
         }
-
+//      row
         val row = tempRow!!
 
         val cobraMemberData = mList[position]
