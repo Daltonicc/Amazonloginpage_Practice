@@ -15,7 +15,7 @@ class CobraAdapter(
     val resId : Int,
     val mList : ArrayList<CobraMember>) : ArrayAdapter<CobraMember>(mContext, resId, mList) {
 
-//      모르겠다 진심,, 뭔소리야 이게...
+//      모르겠다 진심,, 뭔소리야 이게....
         val inf = LayoutInflater.from(mContext)
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
