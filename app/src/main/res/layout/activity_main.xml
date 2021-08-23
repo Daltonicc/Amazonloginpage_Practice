@@ -12,6 +12,8 @@
     android:layout_height="wrap_content"
     android:gravity="center">
 
+<!--이미지 뷰 -아마존 로고
+-->
       <ImageView
         android:layout_width="150dp"
         android:layout_height="100dp"
