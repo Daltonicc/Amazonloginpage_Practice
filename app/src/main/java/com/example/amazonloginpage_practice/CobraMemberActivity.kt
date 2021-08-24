@@ -3,6 +3,7 @@ package com.example.amazonloginpage_practice
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.amazonloginpage_practice.adapters.CobraAdapter
 import com.example.amazonloginpage_practice.datas.CobraMember
@@ -29,6 +30,10 @@ class CobraMemberActivity : AppCompatActivity() {
         mCobraMemberList.add(CobraMember("김정민", 25, "예)병장", "특공병2", "010-8888-8888"))
         mCobraMemberList.add(CobraMember("이승호", 28, "예)병장", "정찰폭파병", "010-9999-9999"))
         mCobraMemberList.add(CobraMember("김동규", 24, "예)병장", "정찰폭파병2", "010-0000-0000"))
+
+        for (std in mCobraMemberList) {
+            Log.d("팀원이름", std.name)
+        }
 
         mAdapter = CobraAdapter(this, R.layout.member_list_item, mCobraMemberList)
 
